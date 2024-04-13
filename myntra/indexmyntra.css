@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 75px;
+    width: 100%;
+    
+   
+}
+.logo{
+    margin-left: 2%;
+    margin-top: 5px;
+}
+.buttons {
+  margin-left: 12%;
+  margin-top: -2.7%;
+}
+.buttons a{
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.buttons p{
+    position: relative;
+    color: red;
+    font-size: 10px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    margin-right: 340px;
+    margin-top: -1.4%;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+.input input{  
+    height: 39px;
+    margin-top:-2.0% ;
+    width: 400px;
+    padding: 0 40px;
+    background-color: rgb(246, 246, 251);
+    border: none;
+    outline:none;
+    color: rgba(119, 121, 122, 0.621);
+    cursor: pointer;
+}
+ .search{
+    position:fixed;
+    margin-top: -1.4%;
+    margin-right: 29%;
+   
+}
+.btns{
+    flex: end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 3%;
+    margin-top: -2.7%;
+    
+}
+.btns a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 900; 
+}
+.bt{
+    margin-right: 35px;
+}.btt{
+    margin-right: 35px;
+}.bttt{
+    margin-right: 35px;
+}
+
+.main img{
+    margin-top: 0.5%;
+    margin-left: 5%;
+    
+}
+main{
+    height: 650px;
+    width: 1540px;
+    background-color:rgb(233, 239, 241) ;
+}
+.main h1{
+    font-size: 70px;
+    text-align: end;
+    margin-top: -20%;
+    margin-left: 50%;
+    padding: 0 60px;
+}
+pre{
+    margin-top: 13%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(54, 53, 53);
+    font-size: 25px;
+    margin-left: 5%;
+}

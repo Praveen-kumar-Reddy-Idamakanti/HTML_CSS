@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+header{
+    padding: 20px 0;
+    margin-left: 1250px;
+    justify-content: space-between;
+    align-items: inherit;
+}
+header button{
+    padding: 10px 30px;
+    margin-left: 15px ;
+    color: white;
+    background-color: blue;
+    font-size: 14px;
+    border-radius: 7px;
+}
+.app1{
+   margin-left: 10px;
+   
+}
+
+header a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(75, 69, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.Google{
+    height: 90px;
+    padding: 65px 640px;
+}
+.Searchbar{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: -25px;
+    justify-content: cemter;
+    max-width: 560px;
+}
+.bar{
+    flex: 1;
+    margin-top:-1.25%;
+    outline: none;
+    border: none;
+    margin-right: 20%;
+    font-size: 15px;
+    cursor: none;
+}
+.search{
+    flex: 1;
+    margin-top:-2.5% ;
+    margin-right: 35%;
+}
+.mic{
+    flex: 1;
+    margin-top: -1.25%;
+    margin-left: 35%;
+}
+.buttons button{
+    margin-top:15% ;
+    padding: 0 30px;
+    font-size: 14px;
+    height: 40px;
+    outline: none;
+    border: none;color: rgba(0, 0, 0, 0.628);
+    background-color:rgba(230, 230, 245, 0.434) ;
+    border-radius: 4px;
+    
+    
+}
+.buttons button:hover{
+    
+    text-decoration: underline;
+}
+.lan{
+   margin-top: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(75, 69, 69);
+   font-size: 12px;
+   display: flex;
+   justify-content: baseline;
+   
+}
+.lan a{
+    padding:0 5px;
+    text-decoration: none;
+}
+.lan a:hover{
+    text-decoration: underline;
+}
+.Country{
+    height: 45px;
+    background-color: #ebf0f5;
+    margin-top: 12%;
+}
+.Country p{
+    padding: 15px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(40, 61, 73);
+}
+.about{
+    background-color: #e5ebf1d1;
+    height: 45px;
+    border-top: 1px solid rgb(191, 208, 218);
+    font-size: 14px;
+}
+.about pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 10px;
+    color: rgb(40, 61, 73);
+}
