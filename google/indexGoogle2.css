@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.headleft a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 0 10px;
+}
+.headright a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 0 10px;    
+}
+ header .headeleft a :hover{
+    text-decoration: underline;
+}
+.headright{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: center;
+}
+.app1{
+    margin-right: 10px;
+}
+main{
+    flex: 1;
+    flex-direction: column;
+    margin-top: 10%;
+    padding: 0 550px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: cemter;
+    max-width: 560px;
+}
+   
+
+.search input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-style: bold;
+}
+.buttonsc button {
+    background-color: #f8f8f8;
+    margin: 5px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.buttonsc{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.India
+{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: large;
+}

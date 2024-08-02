@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+.content h1{
+    font-size: 68px;
+    font-weight: 900;
+    color: rgba(0, 0, 255, 0.555);
+    margin-top: 6%;
+    margin-left: 41%;
+}
+.content pre{
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 32.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+body{
+    background-color: rgb(217, 234, 228);
+
+}
+.login{
+    height: 340px;
+    width: 23%;
+    border: 3px solid white;
+    margin-top: 30px;
+    margin-left: 38%;
+    background-color: white;
+}
+.login input{
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+    margin-left: 10px;
+    width: 88%;
+    text-align: start;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    color: rgb(96, 93, 93);
+}
+.login button{
+    height: 50px;
+    width: 330px;
+    margin-left:10px ;
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 46, 227);
+    font-size: 17px;
+    border-radius: 5px;
+}
+.login button:hover{
+    text-decoration: underline;
+}
+.login a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 105px;
+    color:rgb(63, 63, 205) ;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.login .acc{
+    background-color: rgb(41, 176, 41);
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 20%;
+   
+}
+hr{
+    margin-top: -4%;
+    color: rgb(255, 251, 251);
+}
+footer{
+    display: flex;
+    justify-content: baseline;
+    padding: 10px 605px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    padding : 0 8px;
+}
