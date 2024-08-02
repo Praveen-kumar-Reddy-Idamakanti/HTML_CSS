@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+
+}
+.title{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 35%;
+}
+.title h1{
+    text-decoration: underline;
+}
+.userimages{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 20%;
+    top:30%;
+    animation: moving infinite ease-in-out 4s;
+    background-position: center;
+    background-size: cover;
+}
+.userimages img{
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+}
+.compimages{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 20%;
+    top:30%;
+    animation: moving2 infinite ease-in-out 4s;
+    background-position: center;
+    background-size: cover;
+
+}
+.compimages img{
+    position: absolute;
+    opacity: 0;
+}
+@keyframes moving{
+    0%{
+        background-image: url(download.jpg);
+    }
+    43%{
+        background-image: url(paperimage.jpg);
+    }
+    86%{
+        background-image:url(scissor.jpg)
+    }
+}
+
+@keyframes moving2{
+    0%{
+        background-image: url(paperimage.jpg);
+    }
+    43%{
+        background-image: url(scissor.jpg);
+    }
+    95%{
+        background-image:url(download.jpg)
+    }
+}
+
+.userinput{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+.userinput button{
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 12%;
+    border: 1px solid black;
+}
+.userinput button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
