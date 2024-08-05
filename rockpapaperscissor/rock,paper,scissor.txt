@@ -1,0 +1,97 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+
+const int MAX = 3;  
+int printRandomnumber(int n) 
+{ 
+	int number[MAX] = { 1, 2, 3 }; 
+
+	int res=0; 
+	for (int i = 0; i < n; i++) 
+		res = res + number[rand() % MAX]; 
+	
+	return res; 
+} 
+
+
+int main() 
+{ 
+int g,r1,p1,s1,r,p,s;
+cout<<"Enter the number: "<<endl;
+cout<<"1.Rock"<<endl;
+cout<<"2.Paper"<<endl;
+cout<<"3.Scissor"<<endl;
+cout<<"\n\n";
+cin>>g;
+cout<<"\n";
+switch(g){
+    case 1:
+    //rock
+    r1=10;
+    cout<<"\t User Choice    : Rock\n\n";
+    break;
+    case 2:
+   //paper  
+    p1=20;
+    cout<<"\tUser Choice     : Paper\n\n";
+    break;
+    case 3:
+    //scissor
+    s1=30;
+    cout<<"\tUser Choice     : Scissor\n\n";
+    default:
+    break;
+    cout<<"Check the Number you have typed";
+  
+}
+
+ 
+
+int n = 1,random_ouput; 
+random_ouput=printRandomnumber(n); 
+cout<<" \tcomputer choice : ";
+if(random_ouput==1){
+    r=1;
+      cout<<"Rock\n"<<endl;
+      
+}
+else if(random_ouput==2){
+    p=2;
+      cout<<"Paper\n"<<endl;
+}
+else if(random_ouput==3){
+    s=3;
+    cout<<"Scissor\n"<<endl;
+}
+//r1 cases
+if(r1==10&&r==1){
+    cout<<"\tNo Points\n\t\tIt's a Draw!!";
+}
+else if(r1==10&&p==2){
+    cout<<"\tPoint for Computer\n \t\tYou lost!! ";
+}
+else if(r1==10&&s==3){
+    cout<<"\tPoints for You\n\t\tYou Won!! ";
+}
+//p1 cases
+if(p1==20&&r==1){
+   cout<<"\tPoints for You\n\t\tYou Won!! ";
+}
+else if(p1==20&&p==2){
+    cout<<"\tNo Points\n\t\tIt's a Draw!!";
+}
+else if(p1==20&&s==3){
+    cout<<"\tPoint for Computer\n \t\tYou lost!! ";
+}
+//r1 cases
+if(s1==30&&r==1){
+    cout<<"\tPoint for Computer\n \t\tYou lost!! ";
+}
+else if(s1==30&&p==2){
+   cout<<"\tPoints for You\n\t\tYou Won!! ";
+}
+else if(s1==30&&s==3){
+    cout<<"\tNo Points\n\t\tIt's a Draw!!";
+}
+return 0; 
+}
